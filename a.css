@@ -1,0 +1,25 @@
+.sobre{    
+color: #FFF;
+font-family: "Josefin Sans";
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 716px;
+height: 712px;
+
+}
+.titulo{
+color:#C9C9C9;
+font-size: 96px;
+font-family: Josefin Sans;
+font-weight: 700; 
+word-wrap: break-word;
+}
+section{
+background: linear-gradient(to right, black, transparent), url(./imagem/FACHADA\ 1920\ 1.png);
+background-size: 50%;
+background-repeat:no-repeat;
+background-position: left, right;
+background-color: black;
+}
