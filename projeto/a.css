@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@1,300&family=Reenie+Beanie&display=swap');
+
+.padrão {
+    text-align: center;
+    background-image: url(imagem/fundo-riscado-abstrato-com-um-efeito-do-grunge\ 1.png);
+    width: 1889px;
+    height: 1119px;
+    color: #FFF;
+    font-family: K2D;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+   
+  .cupons-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+   
+  .cupom {
+    position: relative;
+    overflow: hidden;
+  }
+   
+  .cupom img {
+    width: 495px;
+    height:  707px
+    transition: transform 0.3s ease;
+  }
+   
+  .cupom:hover img {
+    transform: scale(1.1);
+  }
+   
+  .cupom button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+   
+  .cupom button:hover {
+    background-color: #005;
+  }
